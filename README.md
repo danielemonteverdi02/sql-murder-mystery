@@ -24,14 +24,14 @@ The goal of this project is to:
 ## 🗂 Dataset Description
 The project uses a SQLite database containing multiple related tables:
 
-- `crime_scene_report`
-- `person`
-- `interview`
-- `drivers_license`
-- `get_fit_now_member`
-- `get_fit_now_check_in`
-- `facebook_event_checkin`
-- `income`
+- crime_scene_report
+- person
+- interview
+- drivers_license
+- get_fit_now_member
+- get_fit_now_check_in
+- facebook_event_checkin
+- income
 
 Each table contains structured information used to reconstruct the investigation.
 
@@ -63,22 +63,14 @@ Identification of the primary suspect responsible for the murder.
 Further analysis of the murderer’s interview to identify the person who hired him.
 
 ### 8. Final Validation
-Filtering candidates based on physical attributes, vehicle data, and event attendance.
-
----
-
-## 🗺️ Entity Relationship Diagram
-
-The diagram below illustrates the database structure and relationships between tables:
-
-![ER Diagram](images/er_diagram.png)
+Filtering candidates based on multiple constraints until the final suspect is identified.
 
 ---
 
 ## 🧾 Final Results
 
-- 🧍 Murderer: **Jeremy Bowers**  
-- 🧠 Mastermind: **Miranda Priestly**
+- Murderer: Jeremy Bowers  
+- Mastermind: Miranda Priestly
 
 ---
 
@@ -86,12 +78,7 @@ The diagram below illustrates the database structure and relationships between t
 
 - SQL querying (SELECT, WHERE, JOIN)
 - Multi-table relationships (INNER JOIN)
-- Pattern matching (LIKE, BETWEEN)
-- Aggregation (GROUP BY, HAVING)
-- Subquery logic
-- Analytical reasoning on structured data
-
----
-
-## 📁 Repository Structure
-
+- Pattern matching (LIKE)
+- Filtering with conditions
+- Aggregation logic
+- Step-by-step analytical reasoning
